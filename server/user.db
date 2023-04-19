@@ -1,0 +1,12 @@
+create table `huangrx-common-test`.user
+(
+    id       int auto_increment
+        primary key,
+    name     varchar(50)  not null,
+    password varchar(255) not null,
+    email    varchar(50)  not null
+);
+
+INSERT INTO `huangrx-common-test`.user (id, name, password, email) VALUES (1, '张三', '123456', '123@qq.com');
+INSERT INTO `huangrx-common-test`.user (id, name, password, email) VALUES (2, '李四', '123456', '1234@qq.com');
+INSERT INTO `huangrx-common-test`.user (id, name, password, email) VALUES (10, '你好啊', '123456', '1235@qq.com');
